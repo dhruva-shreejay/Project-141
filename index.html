@@ -1,0 +1,67 @@
+<!--created by prashant shukla-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ping Pong</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+     
+        <link rel="stylesheet" href="style.css">
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>   
+
+    </head>
+    <body background = "background1.jpg">
+        <center>
+
+            <h3 class = "btn btn-danger" id = "heading">AI PING-PONG APP</h3>
+            <button class = "btn btn-warning" id = "instructions" data-toggle = "modal" data-target = "#modal">Instructions</button> 
+            <br><br>
+            <button class = "btn btn-warning" onclick = "play();">PLAY</button>
+            <h3 id = "status" class = "btn btn-danger"></h3>
+            <div id = "canvas"></div>
+
+            <br>
+
+            <button onclick = "restart();" class = "btn btn-danger restarting">Restart</button>
+        
+            <div class = "footer">
+              Developed by Dhruva Shreejay
+          </div>
+
+        <div id = "modal" class = "modal fade ">
+            <div class = "modal-dialog">
+              <div class = "modal-content">
+                <div class = "modal-header">
+                  <button class = "close" data-dismiss = "modal">&times;</button>
+                  <h4>Instructions</h4>
+                </div>
+  
+                <div class = "modal-body">
+                  <div>
+                    1. First keep your laptop screen straight 
+                  </div>
+                  <div>
+                    2. Move yourself 3-4 feet away from the laptop
+                  </div>
+                  <div>
+                    3. Move your right wrist in an ascending and descending pattern, 
+                    a red dot should appear on it
+                  </div>
+                  <div>
+                    4. Now press the play button, 
+                    the red padel is your padel that will move as per your wrist movement
+                  </div>
+                </div>
+                       
+
+        </center>
+
+
+
+        <script src="main.js"></script>
+    </body>
+</html>

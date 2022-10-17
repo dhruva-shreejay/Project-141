@@ -1,0 +1,34 @@
+#instructions
+{
+    float: right;
+    font-size: 22px;
+}
+
+#heading
+{
+    font-size: 22px;
+}
+
+.restarting
+{
+    font-size: 15px;
+}
+
+.footer
+{
+    bottom: 0;
+    background-color: whitesmoke;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.modal-dialog
+{
+    width: 90%;
+}
+
+canvas
+{
+    border: 3px solid white;
+    border-radius: 20px;
+}
